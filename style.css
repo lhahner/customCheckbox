@@ -1,0 +1,122 @@
+/**Allgemein**/
+html {
+    font-family: sans-serif;
+}
+/*************/
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 20vh;
+    width: 100%;
+}
+
+#checkboxen {
+    display: flex;
+    flex-direction: row;
+    margin: 9px;
+}
+
+div[id*='checkbox-']{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    font-weight: 500px;
+    color: #0648B3;
+}
+
+#checkbox-1 {
+    width: 33.33%;
+    height: 9px;
+    padding: 24px;
+    align-items: center;
+    border-style: solid;
+    border-radius: 20px 0px 0px 20px;
+    border-color: #0648B3;
+    background-color: white;
+    color: #0648B3;
+    border-width: 1px;
+}
+#checkbox-1:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+#text-1:hover {
+    cursor: pointer;
+}
+
+#checkbox-2 {
+    width: 33.33%;
+    height: 9px;
+    padding: 24px 20px 24px 20px;
+    align-items: center;
+    border-style: solid;
+    border-radius: 0px 0px 0px 0px;
+    border-color: #0648B3 rgba(255, 255, 255, 0) #0648B3 rgba(255, 255, 255, 0);
+    border-width: 1px;
+}
+
+#checkbox-2:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+#text-2:hover {
+    cursor: pointer;
+}
+
+#checkbox-3 {
+    display: flex;
+    width: 33.33%;
+    height: 9px;
+    padding: 24px;
+    align-items: center;
+    border-style: solid;
+    border-radius: 0px 20px 20px 0px;
+    border-color: #0648B3;
+    border-width: 1px;
+}
+
+#checkbox-3:hover  {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+#text-3:hover {
+    cursor: pointer;
+}
+
+div[id*='box-']{
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/**NOT CHECKBOX**/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar > ul {
+    display: flex;
+    flex-direction: row;
+    background-color: #0648B3;
+    font-weight: bold;
+    color: white;
+}
+li[id*='item-']{
+    
+    margin: 1em;
+}
+/****************/
